@@ -30,7 +30,8 @@ body p {
 
 .card-text {
      text-align: center;
-     padding-left: 20px;
+     padding-left: 10px;
+     padding-right: 10px;
 }
 
 #qr-bold-text {
@@ -50,16 +51,23 @@ body p {
         border-radius: 5%;
         padding: 10px;
         margin: auto;
-        width: 70%;
+        width: 85%;
     }
+
+    .card-text {
+        text-align: center;
+        font-size: 24px;
+        padding-left: 30px;
+        padding-right: 30px;
+   }
 
     .qr-container {
         background-color: hsl(212, 45%, 89%);
-        padding: 20% 10px 20% 10px;
+        padding: 15vh 5px 20% 10px;
     }
 
     #qr-bold-text {
-        font-weight: bolder;
-        font-size: 20px;
+        font-weight: bold;
+        font-size: 24px;
     }
 }
