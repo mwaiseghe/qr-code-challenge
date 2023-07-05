@@ -3,6 +3,7 @@ body {
     font-family: 'Outfit', sans-serif;
     margin:0%;
     height: 100vh;
+    background-color: hsl(212, 45%, 89%);
 }
 
 body p {
@@ -16,23 +17,25 @@ body p {
 
 .qr-container {
     background-color: hsl(212, 45%, 89%);
-    padding: 100px 20px 100px 20px;
+    padding: 100px 20px 15vh 100px;
 }
 
 .card {
     background-color: white;
     border-radius: 5%;
-    padding: 1%;
+    padding: 5px;
     margin: auto;
-    width: 14%;;
+    width: 20%;
 }
 
 .card-text {
      text-align: center;
+     padding-left: 20px;
 }
 
 #qr-bold-text {
     font-weight: bold;
+    font-size: large;
 }
 
 .qr-img {
@@ -45,7 +48,7 @@ body p {
     .card {
         background-color: white;
         border-radius: 5%;
-        padding: 5%;
+        padding: 10px;
         margin: auto;
         width: 70%;
     }
