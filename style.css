@@ -1,8 +1,8 @@
 body {
     background-color: white;
     font-family: 'Outfit', sans-serif;
+    margin:0%;
     height: 100vh;
-    width: 100vw;
 }
 
 body p {
@@ -10,12 +10,13 @@ body p {
 }
 
 .container {
-    padding: 5%;
+    background-color: (212, 45%, 89%);
 }
+
 
 .qr-container {
     background-color: hsl(212, 45%, 89%);
-    padding: 10% 20% 10%;
+    padding: 100px 20px 100px 20px;
 }
 
 .card {
@@ -23,7 +24,7 @@ body p {
     border-radius: 5%;
     padding: 1%;
     margin: auto;
-    width: 25%;
+    width: 14%;;
 }
 
 .card-text {
@@ -40,27 +41,22 @@ body p {
 }
 
 /* Responsiveness */
-@media only screen and (max-width:600px){
-    body {
-        height: 100vh;
-        width: 100vw;
-    }   
-    .container {
-        padding: 0px;
-        height: 100vh;
-    }
-
+@media only screen and (max-width:600px){  
     .card {
         background-color: white;
         border-radius: 5%;
         padding: 5%;
         margin: auto;
-        width: 80%; 
+        width: 70%;
     }
 
     .qr-container {
         background-color: hsl(212, 45%, 89%);
-        padding: 10%;
-        height: 100vh;
+        padding: 20% 10px 20% 10px;
+    }
+
+    #qr-bold-text {
+        font-weight: bolder;
+        font-size: 20px;
     }
 }
